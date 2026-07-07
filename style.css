@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.logo-r {
+    color: #FD6E0A;
+}
+
+.common-btn {
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.outlite-btn {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: orange;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+}
+
+/* hero section style */
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.hero-parent-root {
+    background-color: #fff8f3;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-laft-p-1 {
+    font-family: 28px;
+    font-size: 600;
+}
+
+.hero-laft h2 {
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.hero-laft-button-parent {
+    margin-top: 12px;
+}
+
+/* about us css */
+.about-parent {
+    background-color: #fff8f3;
+    margin: 70px auto;
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.about-parent p {
+    margin: 10px o;
+    gap: 10px;
+}
+
+.about-box-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-box-parent .box {
+    background-color: #7e7066;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+/* what i do section css */
+
+.what-i-do-parent {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.what-i-do-card-contant {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.what-i-do-card-contant .what-i-do-card {
+    border: 2px solid #FD6E0A;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+.what-i-do-card-contant .what-i-do-card p {
+
+    color: #757575;
+    font-size: 15px;
+}
+
+.what-i-do-card-contant .what-i-do-card h2 {
+    margin: 10px 0;
+}
+
+
+/* amzin works section */
+
+.my-amaxzin-parent {
+    text-align: center;
+
+}
+
+.gallery {
+    gap: 12px;
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    grid-template-areas:
+    "one two three"
+    "four two six "
+    "four five six";
+}
+
+.gallery img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-1 {
+    grid-area: one;
+
+}
+
+.box-2 {
+    grid-area: two;
+
+}
+
+.box-3 {
+    grid-area: three;
+}
+
+.box-4 {
+    grid-area: four;
+}
+
+.box-5 {
+    grid-area: five;
+
+}
+
+.box-6 {
+    grid-area: six;
+}
+
+
+/* footer style */
+
+footer{
+    text-align: center;
+    margin-top: 70px !important;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    background-color: #fff8f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+footer form input ,footer form textarea{
+    outline: none;
+    border: none;
+    background-color:wheat;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display:block;
+    margin-bottom: 8px;
+    width: 100%;
+
+}
+
+footer form{
+    padding:20px;
+}
+
+.footer-left p{
+    margin: 10px 0;
+}
+
+span{
+    color:green;
+}
